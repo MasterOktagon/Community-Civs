@@ -208,6 +208,22 @@
 	"uniques":["Destroyed when the city is captured"],
 	},
 	{
+	"name":"Freeport",
+	"cost":250,
+	"replaces":"Seaport",
+	"requiredTech":"Navigation",
+	"uniqueTo":"Ketonia",
+	"maintenance":3,
+	"requiredBuilding": "Harbor",
+	"uniques":[
+		"[+5]% [Gold] from Trade Routes",
+		"[+15]% Production when constructing [Water] units [in this city]",
+		"Must be next to [Coast]",
+		"[+1 Happiness] from [Luxury resource] tiles [in this city]",
+		"No extra [Gold] from Water tiles"
+	]
+	},
+	{
 		"name": "Reactor Tower",
 		"uniqueTo": "The Reactors",
 		"replaces": "Broadcast Tower",
