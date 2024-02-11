@@ -3,6 +3,7 @@
 		"name": "Arepandia",
 		"leaderName": "Caballero Arepa",
 		"adjective": ["Arepino"],
+	  	"style": "Arepino",
 		"outerColor": [74, 64, 58],
 		"innerColor": [255, 192, 105],
 
@@ -14,7 +15,7 @@
 		"startIntroPart2": "We'll defend from the attack\nAltough our nation may be halved\nWe'll resist the whack\n'Til Triumph we shall have.",
  
 		"introduction": "Buenas sumercé, how are ya? Wanna a tad bit of coffee?",
-		"declaringWar": "*Alright God, please not another Stalingrad battle*",
+		"declaringWar": "*Alright God, please not another trench warfare war...*",
      		"attacked": "I have the highground!\n...\n*heeeeeeelpp!!*",
 		"afterPeace": "So uncivilized...\noh wait... that's da name of the game...",
 		"defeated": "I HATE YOU!",
@@ -25,48 +26,16 @@
 		"tradeRequest": "Wanna some aditional arepas?",
 		
 		"uniqueName": "Uplifting Arepas",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills <with [Arepa]>",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>"
 			"[-50]% maintenance on road & railroads <with [Arepa]>",
 			"[+1 Production] from [Great Improvement] tiles [in all cities] <within [1] tiles of a [Arepa House]>"],
 
-		"cities": ["Central Arepa","Aguapanela","Villa Chóclo","Puerto Boyacense","La Paila","Tumbabudare",
-			   "Patacón","Candelaria","Rellenas","Quesillo","Harinapan","Panela",
-			   "Bogotana de Arepas","Finca Paisa","E'uevo","Santander","Casabe","Arepuela","Carioca","Chanfa",
+		"cities": ["Central Arepa","Aguapanela","Villa Chóclo","Puerto Boyacense","La Paila","Patacón",
+			   "Mogolla","Candelaria","Rellenas","Quesillo","Harinapan","Panela",
+			   "Bogotana de Arepas","Finca Paisa","E'uevo","Colada","Casabe","Arepuela","Carioca","Chanfa",
 			   "Sarapas","Puerto Angú","Arequipe,","Shocolade","Andiná","Desmechado",
 			  ]
   },
-  { //Old
-		"name": "Duchy of Arepandia",
-		"leaderName": "Caballero Arepa",
-		"adjective": ["Arepino"],
-		"outerColor": [74, 64, 58],
-		"innerColor": [255, 192, 105],
-		"style": "Arepino",
-
-		"startBias": ["Mountain"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Arepas Supremas",
-	  
-		"startIntroPart1": "Buenas sumercé! Great leader of the independent duchy, your multiple public proyects that you started brought prosperity to the nation, when they were finished, that is...\nBut the will of the people makes the nation move foward and keep up with the strongest of oponents.",
-		"startIntroPart2": "We'll defend from the attack\nAltough our nation may be halved\nWe'll resist the whack\n'Til Triumph you shall have.",
- 
-	    "introduction": "Buenas sumercé, how are ya? Wanna a tad bit of coffee?",
-	    "declaringWar": "*Alright God, please not another Stalingrad battle*",
-     	"attacked": "I have the highground!\n...\n*heeeeeeelpp!!*",
-		"afterPeace": "So uncivilized...\noh wait... that's da name of the game...",
-		"defeated": "I HATE YOU!",
-
-     	"neutralHello": "Quiubo",
-    	"hateHello": "¡ej, nojoda, ¿otra véz este man?!",
-
-    	"tradeRequest": "Wanna some aditional... *white coffee*?",
-		
-		"uniqueName": "Arepa Economy",
-		"uniques": ["[+1 Gold] from [Arepa Stand] tiles [in all cities] <within [1] tiles of a [Great Improvement]>","[+1 Production] from [Great Improvement] tiles [in all cities] <within [1] tiles of a [Arepa Stand]>","[-57]% Food consumption by specialists [in all cities]","Provides [6] [Flour]"],
-
-		"cities": ["Central Arepa","Puerto Aguapanela","Villa Chóclo","Puerto Boyacense","Bogotana de Arepas","Finca Paisa","Cundinamarca","Rellenas de Sulemaida","Plaza Harinapan","Venezolanas","Macheteadas","La Paila","La Candela","Las Fusagasugas"]
-  },
-	
 	//Ace Hank of Hankunesia
 	{
 		"name": "Hankunesia",
@@ -136,10 +105,10 @@
 {
 		"name": "Wonderland",
 		"leaderName": "Belias",
+	  	"style": "Belias",
 		"adjective": ["Maravillense"],
 		"outerColor": [39,126,205],
 		"innerColor": [255,255,255],
-		"style": "Wonderfull",
 
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
@@ -200,16 +169,16 @@
 		"adjective": ["Penguinesian"],
 		"outerColor": [30, 71, 133],
 		"innerColor": [255, 127, 0],
-		"style": "",
 
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Humanism",
 	  
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Welcome to Penguinesia, a world of icy diplomacy and strategic mastery, where you will lead a resilient and visionary empire. As the ruler of this great nation, you'll guide your people through frozen tundra and treacherous seas, fostering innovation and scientific progress.",
+		"startIntroPart2": "Balance nature's delicate equilibrium, harness advanced technologies, and embark on groundbreaking scientific endeavors to propel Penguinesia to the forefront of innovation. Form alliances, negotiate treaties, or wage war if necessary, as you strive to establish Penguinesia as the pinnacle of civilization. Embrace the role of Emperor and shape Penguinesia's destiny through wisdom, diplomacy, and the pursuit of greatness. The world awaits your leadership!",
+
  
-		"introduction": "Welcome stranger, I am Emperor Penguin of the beautiful and civilized nation of Penguinesia.",
+		"introduction": "Welcome stranger, I am Emperor Penguin of the beautiful and prosperous nation of Penguinesia.",
 		"declaringWar": "This is war. Be prepared.",
 		"attacked": "How dare you!?",
 		"afterPeace": "A wise decision.",
@@ -218,16 +187,16 @@
 		"neutralHello": "You're welcome",
 		"hateHello": "What do you want?",
 
-		"tradeRequest": "I've got a deal for you:",
+		"tradeRequest": "I've got a deal for you.",
 		
 		"uniqueName": "Sovereign of the Seven Seas",
-		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","Each city founded increases culture cost of policies [33]% less than normal"],
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+1 Production] from every [Fishing Boats]"],
 
 		"cities": ["Penguinville","Chillhaven","Penguino Bay","Frostfjord","Pebblebeach",
-				"Blizzard Heights","Penguin Key","Pelican Point","Sandy Shores","Palm Penguin",
-				"Fisherman's Flats","Blue Lagoon","Sunspot City","Penguinport","Flapflats",
+				"Blizzard Heights","Flipper Beach","Penguinport","Sandy Shores","Palm Penguin","Antarctic Bay",
+				"Fisherman's Flats","Blue Lagoon","Pelican Point","Sunspot City","Penguin Key","Flapflats",
 				"Seaside Sands","Flamingo Bay","Waddleton","Archipenguine","Snowsquall",
-				"Tundratropolis","Iceberg City","Surfside City","Antarctic Bay","Flipper Beach",
+				"Tundratropolis","Iceberg City","Surfside City",
 				"Glacierside","Penguintopia","Coral Cove","Tropicool","Icicletown"]
   },
   //Firelord
@@ -238,7 +207,7 @@
 		"outerColor": [41, 41, 41],    
                 "innerColor": [213, 112, 3],
 
-		"startBias": ["Coast","Desert"],
+		"startBias": ["Desert","Coast"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "The Church of the Daring Flame",
 	  
@@ -251,7 +220,7 @@
 		"afterPeace": "So uncivilized...\noh wait... that's da name of the game...",
 		"defeated": "The Imperiums ambitions were too daring, now our flame has been extinguished...",
 
-     	"neutralHello": "greetings",
+     	"neutralHello": "Greetings",
     	"hateHello": "Are you here to pay tribute?",
 
     	"tradeRequest": "This trade is beneficial to both of us",
@@ -278,15 +247,15 @@
 					"Ironclaw","Scorchtowne","Emberwood"
 					]
   },
-  //Alyosha
+  //A1y0sh4
   {
 "name": "Aleksandria",
-"leaderName": "A1y0sh4",
+"leaderName": "Alyosha",
 "adjective": ["Aleksandrian"],
 "startBias": ["Tundra"],
 "preferredVictoryType": "Scientific",
 	
-	"declaringWar": "The deeds sing, goddess, of the Motherland's son, A1y0sh4,\nthat war enterprises which brought countless glories upon the Comrades,\nand sent forth to Hades many valiant enemies.",
+	"declaringWar": "The deeds sing, goddess, of the Motherland's son, Alyosha,\nthat war enterprises which brought countless glories upon the Comrades,\nand sent forth to Hades many valiant enemies.",
 	"attacked": "Finally someone ambitious enough to try to win me over.\nMay you succeed or die under my triumph.",
 	"defeated": "I know nothing about what I ignore, there's not much that I can do about it,\nand yet my latest realization burns my soul almost as much, in pride, I have burnt till now.",
 	"introduction": "Zdravstvuyte! I am A1y0sh4, great emperor of our glorious Motherland,\nbut you can call me Alyosha.",
@@ -294,10 +263,12 @@
 	"hateHello": "Are you still in this side of the Acheron?\nWhat do you want?",
 	"tradeRequest": "Some believe that trade is the engine of the world.\nWould you like to move it in this direction?",
 	"favoredReligion": "Christianity",
-	"outerColor": [255, 255, 255],
-	"innerColor": [255, 188, 32],
+
+	"outerColor": [255, 250, 255],
+	"innerColor": [255, 205, 0],
+
 	"uniqueName": "Pearl of the North",
-	"uniques": ["[+1 Science] from every [Mine] <in [Tundra] tiles>", "[+1 Science] from every [Quarry] <in [Tundra] tiles>", "[+1 Culture] from every [Camp] <in [Tundra] tiles>", "[+1 Culture] from every [Pasture] <in [Tundra] tiles>"],
+	"uniques": ["[+1 Science] from every [Mine] <within [1] tiles of a [Tundra]>", "[+1 Culture] from every [Camp] <within [1] tiles of a [Tundra]>", "[-25]% construction time for [All] improvements <within [1] tiles of a [Tundra]>"],
 	"cities": ["Aleksandriagrad","Nikesburg","Rimgorod","Rodinnesburg","Yekateringrad","Peterinburg","Medvedorod","Ruthensk","Vostgorod",
 		"Lyoshasburg","Tovarivsk","Pobedigrad","Aleksisburg","Novaleksandria","Lyoshagrad","Veliksey","kholodnisburg","Veliksandria","Rekasburg",
 		"Veragrad","Morozburg","Varkutinsk"]
@@ -425,6 +396,7 @@
 	//VividVale 
     {
         "name": "VividVale",
+	"style": "VividValean",
         "leaderName": "TCube",
         "adjective": ["VividValian"],
         "startBias": ["Coast"],
@@ -482,7 +454,7 @@
 },
 //What should everyone calk you?
 {
-        "name": "Sharded  Civ",
+        "name": "Sharded Civ",
         "leaderName": "Alpha-2",
         "adjective": ["Former Galactic"],
 	"startBias": ["Tundra"],
@@ -539,7 +511,7 @@
     	"tradeRequest": "May I interest you in these fine pieces?",
 		
 		"uniqueName": "Absolute Artists",
-		"uniques": ["Receive free [Great Artist] when you discover [Drama and Poetry]", "[Great Artist] is earned [50]% faster"],
+		"uniques": ["Free[Great Artist] appears <upon discovering [Drama and Poetry]>", "[Great Artist] is earned [50]% faster"],
 
 		"cities": ["Absolute Falls","Pixelhaven","Glorious Drive","Dunevale","Trail's End","Linntown","Wormwood","Willamette","Hillview","Riverhaven","Forest Crest","Pixelview","Absolute Heights","Wormgate","Riverdale","Duneland","Wormsign","Clayearth","Absolute Valley","Rainburg","Pixel Springs"]
   },
@@ -618,8 +590,7 @@
 					"[+1 Gold] <with [Whales]>", 
 					"[+1 Gold] <with [Jewelry]>", 
 					"[+1 Gold] <with [Porcelain]>", 
-					"[+1 Gold] <with [Arepa]>", 
-					"[+1 Gold] <with [White Coffee]>"],
+					"[+1 Gold] <with [Arepa]>"],
 		"cities": ["Guy Not Fawkes","Regalia","Alion","Gatland","Vinia","Sibisia","Mogrim","Khemul","Ekh-krak","Suulak",
 			"Srandal","La Wang","Klosso","Pi-Ring","Sentir"],
 	},
@@ -648,5 +619,77 @@
         "uniqueName": "Clownfiesta",
         "uniques": ["[+1] Sight <for [Scout] units>","[Scout] units gain the [Quick Study] promotion","City-State territory always counts as friendly territory"],
         "cities":["No'El","Vir Ehing","Rav Gerrak","O'Negai","Na'Arua","Gor Irdur","Vak Eloen","Yuub Onae'U","U'Pran"],
+    },
+	{
+        "name": "Principality of Vinroth",
+        "leaderName": "Veldreth",
+        "adjective": ["Vinrothian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "All hail, Veldreth, Prince Stalwart of Principality of Vinroth, realm shrouded in darkness and despair. In the face of overwhelming adversity, you have risen to power, defying the odds with unmatched determination. Your intellect and understanding of your people's fears and flaws made you the beacon of hope they desperately sought. It is your resilient spirit that brought light to this shadowed realm. While the world around you faltered and struggled, your principality thrived amidst the desolation and sorrow as the last bastion of humanity. Without your guidance, your people were doomed to succumb to terrors of the world around. ",
+        "startIntroPart2": "The world looks upon you with anticipation. Will you rise above the despair that engulfs us, defy the odds and forge a civilization that will stand the test of time? ",
+
+        "introduction": "Fear not, I am Veldreth, Prince of Vinroth. I am here to lead people through the shadows into a brighter future.",
+        "declaringWar": "Beware, for I shall unleash all my fury upon you!",
+        "attacked": "Prepare to face my wrath! We will defend with unwavering resolve!",
+        "defeated": "The spirit of resilience burns within us still. We shall rise again, from the ashes of defeat, and reclaim what is rightfully ours!",
+         "neutralHello": "Do you need anything?",
+        "hateHello": "What do you want, be quick!",
+        "tradeRequest": "I bring you light! Together, we can overcome the darkness that engulfs us.",
+	
+		"outerColor": [11, 33, 28],
+        "innerColor": [167, 153, 186],
+        
+        "uniqueName": "We Bring the Light",
+        "uniques": ["[+1 Happiness] in cities on [Fresh Water] tiles", "[Civilian] units gain the [Ignore terrain cost] promotion", "[+1] Sight <for [{Civilian} {Land}] units>"],
+        "cities":["Grimtown","Ashmore","Whipstead","Doomsreach","Harshgard","Mournburg","Plaguehelm","Dreadmoor","Sorrowdale","Filthlair","Cindergate","Screamvile","Bloodcreek","Duskfall","Blightfen","Scumhaven","Hopeleap","Wraithtall","Gloombridge"],
+    },
+// PrussiAcid
+    {
+        	"name": "New Prussia",
+        	"leaderName": "PrussiAcid",
+        	"adjective": ["New Prussian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
+
+        	"startIntroPart1": "Ashes to Ashes, Dust to Dust. We won't let the legasy of Germania turn to Rust.",
+        	"startIntroPart2": "Even so, Omega has failed. It's time to deside, whether you will krumble or prevail...",
+
+        	"introduction": "A new face, pertshanse?",
+        	"declaringWar": "The Konskript's bloodlust has taken shape, prepare yourself for war!",
+        	"attacked": "Boah! I will beat you 'til yer eyes glaze over!",
+        	"defeated": "You may think yerself safe, but be it in this life, or the next, or the one after that; I'll have your head, and I'll have it on a plate!",
+         	"neutralHello": "Go for it.",
+        	"hateHello": "Do I need Koershion?",
+        	"tradeRequest": "This is a fair trade, review it as sutsh.",
+	
+		"outerColor": [23, 16, 9],
+		"innerColor": [249, 200, 86],
+        
+        	"uniqueName": "Kaiser and Konquest",
+        	"uniques": ["[+75]% Strength <for [Modern era] units> <vs [Atomic era] units>",
+			"[+150]% Strength <for [Modern era] units> <vs [Information era] units>"],
+        "cities": ["Trentsh Town","Ravensmear","Kranberri","Fernesi","Königsberg","Akkenheimer","Krieg","Kampfflieger","Rote","Breslau","Wroklaw",
+			"Kurtzberg","Fort Tundra","Dreston","Brandt","NeuBrandenburg","Ragenteeg","Karbrow","Fegalkiete","Aubernbury",
+			"Montagerburt","Rohbenheit","Kirentagh","Linderhielle","Kiarglin","Drieb","Berße","Ilkert","Wuntingkraut","Krinterhaus",
+			"Greatahn","Karkk","Kastell","Notsh","Hammville","Nogger","NeuKranberri","Dylan's Haus","Hotters","Drusselstein",
+			"Brick","Hueterkönig","Point Alpha","Point Beta","Point Gamma","Point Delta","Point Epsilon","Point Theta","Point Psi",
+			"Point Kurtz","Point Zeta","Point Pi","Point Omicron","Point Omega","Iturnil Suhfaring"],
+        "spyNames": ["Josh", "Dylan", "Wilhelm", "Kriegan", "Hans", "Horst", "Rehpostin", "Kaleb", "Nickerson", "Tshighur"]
+    },
+	//Gafaszt2
+    {
+        	"name": "Arkistia",
+        	"leaderName": "Gafaszt2",
+		"startBias": ["Jungle"],
+		"outerColor": [79, 0, 158],
+		"innerColor": [233, 92, 170],
+        
+        	"uniqueName": "Fury of the Arks",
+        	"uniques": ["[+10]% construction time for [All] improvements",
+			"[+15]% Golden Age length","[+10]% Strength <when fighting in [Friendly Land] tiles>"],
+        "cities": ["Arkistia","Paeolitic","Grandpas House","Jurassic Park","Ark Base","Megalodon"]
     },
 ]
