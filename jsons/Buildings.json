@@ -2,15 +2,14 @@
 //Arepandia
     {
 		"name": "Arepa Hub",
-		"replaces": "Bank",
 		"uniqueTo": "Arepandia",
-		"gold": 2,
-		"specialistSlots": {"Artist": 1},
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25},
-		"requiredBuilding": "Market",
-		"requiredTech": "Banking",
-		"uniques": ["Creates a [Arepa House] improvement on a specific tile"]
+		"replaces": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]",
+			"Creates a [Arepa House] improvement on a specific tile",
+			"[+1 Culture] from [Great Improvement] tiles [in this city] <within [1] tiles of a [Arepa House]>"],
+		"requiredTech": "Engineering"
 	},
 // Lasty's Kazakhstan
 {
@@ -120,25 +119,20 @@
 		"uniques": ["Destroyed when the city is captured","[+2]% growth [in all cities]","[+1 Culture] <after discovering [Steam Power]>","[+1 Food] <after discovering [Biology]>"]
 	},
 //Aleksandria
-        {
-		"name": "Kreml'",
-		"replaces": "Walls",
-		"uniqueTo": "Aleksandria",
-		"cityStrength": 8,
-		"cityHealth": 50,
-		"cost": 60,
-		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured"]
-	},
 	{
 		"name": "Katorga",
+		"replaces": "Workshop",
 		"uniqueTo":"Aleksandria",
-		"cost": 120,
+		"production": 2,
+		"happiness": 1,
+		"cost": 110,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Metal Casting",
-		"uniques": ["Must be next to [Tundra]", "[+1 Production] from [Mine] tiles [in this city]", "[+10]% [Production] [in this city]"]
+		"uniques": ["[+1 Culture, +1 Science] [in this city] <within [1] tiles of a [Tundra]>"]
 	},
 	//Firelord
 	{
@@ -304,5 +298,31 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
+	},
+	//Fast Doubloon
+	{
+		"name": "Fast Economic Growth Center",
+		"uniqueTo": "The Fast Economists",
+		"replaces": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 50},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	//Tyrumas
+	{
+		"name": "Food House",
+		"replaces": "Opera House",
+		"uniqueTo": "Sylvanor",
+		"culture": 4,
+		"food": 1,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["[20]% Food is carried over after population increases [in this city]","Destroyed when the city is captured"]
 	},
 ]

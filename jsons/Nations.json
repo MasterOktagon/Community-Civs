@@ -1,39 +1,40 @@
 [
-  { //New
+	//Caballero Arepa
+  {
 		"name": "Arepandia",
-		"leaderName": "Caballero Arepa",
-		"adjective": ["Arepino"],
+		"leaderName": "Arepa Lord",
+		"adjective": ["Areperro"],
 	  	"style": "Arepino",
-		"outerColor": [74, 64, 58],
-		"innerColor": [255, 192, 105],
+		"outerColor": [80, 37, 20],
+		"innerColor": [238, 215, 181],
 
 		"startBias": ["Mountain"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Caballero Arepa",
 		"favoredReligion": "Arepas Supremas",
 	  
-		"startIntroPart1": "Buenas sumercé! Great leader of the independent duchy, your multiple public proyects that you started brought prosperity to the nation, when they were finished, that is...\nBut the will of the people makes the nation move foward and keep up with the strongest of oponents.",
-		"startIntroPart2": "We'll defend from the attack\nAltough our nation may be halved\nWe'll resist the whack\n'Til Triumph we shall have.",
+		"startIntroPart1": "Here we are, although it's hard to believe,\nNo need to thank us when you see our army of relief.\nWe sure can attack, we sure will protect, but most important of all, we never step back.\nI will spare you out of grief, when I reach my friendship hand.\nIf you accept, then I'll let you try the greatest food you've ever had.\n\nWith the food of the gods, I only need HarinaPAN,\nWe can lean back, as we don't depend on anyone,\nWith whatever is at hand, and with water and maize,\nStuffed with meat and corn, or simply a chocolate,\nWe can build a soft and crunchy arepa to amaze.\n\nThe jummy jummy smell of the arepa will reach so far,\nYou'll ask me once for one, and eating it you'll be glad,\nIt'll leave your mouth so watery that you'll want more of that.\nIf you spit at my hand, and reject my offer back,\nFrom Peru to Japan, I will smack you with my pan.\n\nDon't try to fool me; I won't fall into any trap of sh*t,\nFor if you do me dirty, it'll cost you a high price,\nA simple excuse will not cut it, as we never forgive,\nDon't come pleading at me when I conduct my Revenge of the Sith.",
+		"startIntroPart2": "We'll defend from the attack\nAltough our nation may be halved\nWe'll resist the whack\n'Til Triumph we shall have.\n\nWith my trusty rusty old machete, be careful with your knee,\nTake care, as its poisonous, less it gets infected.\nI'm sorry, you made me do it, how dare you bring me tee?!\nWe dislike that bushy tree, and maybe you disagree,\nI don't want anything British, only supreme Colombian coffee.",
  
-		"introduction": "Buenas sumercé, how are ya? Wanna a tad bit of coffee?",
-		"declaringWar": "*Alright God, please not another trench warfare war...*",
-     		"attacked": "I have the highground!\n...\n*heeeeeeelpp!!*",
-		"afterPeace": "So uncivilized...\noh wait... that's da name of the game...",
-		"defeated": "I HATE YOU!",
+		"introduction": "Here we are, although it's hard to believe,\nNo need to thank us when you see our army of relief.\nI will spare you out of grief, when I reach my friendship hand.\nIf you accept, then I'll let you try the greatest food you've ever had.",
+		"declaringWar": "From Peru to Japan, I'll smack you with my pan,\nprepare your guts, and feel the power of HarinaPAN",
+     		"attacked": "I'm sorry, you made me do it, how dare you bring me tee?!\nDon't come at me pleading when I conduct my revenge of the Sith.",
+		"afterPeace": "Don't try to fool me, I won't fall into any trap of sh*t,\nIt'll cost you a high price if you do me dirty.",
+		"defeated": "By my trusty rusty old machete, be careful with your knee\nLess it gets infected, as its poisonous. I won't say 'sorry'.",
 
-		"neutralHello": "Quiubo",
-		"hateHello": "¡ej, nojoda, ¿otra véz este man?!",
+		"neutralHello": "Quiubo, the jummy smell of the arepa has reached so far,\nYou'll ask me once for one, and eating it you'll be glad,\nIt'll leave your mouth so watery that you'll want more of that.",
+		"hateHello": "We sure can attack, we sure will protect, but most important of all, we never step back.",
 
-		"tradeRequest": "Wanna some aditional arepas?",
+		"tradeRequest": "With whatever is at hand, and with water and maize,\nStuffed with meat and corn, or simply a chocolate,\nWe can build a soft and crunchy arepa to amaze.",
 		
 		"uniqueName": "Uplifting Arepas",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>"
-			"[-50]% maintenance on road & railroads <with [Arepa]>",
-			"[+1 Production] from [Great Improvement] tiles [in all cities] <within [1] tiles of a [Arepa House]>"],
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>"],
 
-		"cities": ["Central Arepa","Aguapanela","Villa Chóclo","Puerto Boyacense","La Paila","Patacón",
-			   "Mogolla","Candelaria","Rellenas","Quesillo","Harinapan","Panela",
+		"cities": ["Central Arepa","Aguapanela","Puerto Chóclo","Villa Boyacense","La Paila","Patacón",
+			   "Mogolla","Harinapan","Candelaria","Rellenas","Quesillo","Panela",
 			   "Bogotana de Arepas","Finca Paisa","E'uevo","Colada","Casabe","Arepuela","Carioca","Chanfa",
-			   "Sarapas","Puerto Angú","Arequipe,","Shocolade","Andiná","Desmechado",
+			   "Sarapas","Puerto Angú","Arequipe,","Shocolade","Andiná","Desmechado"
 			  ]
   },
 	//Ace Hank of Hankunesia
@@ -170,8 +171,9 @@
 		"outerColor": [30, 71, 133],
 		"innerColor": [255, 127, 0],
 
-		"startBias": ["Coast"],
+		//"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
+		"personality": "Penguinesia_AI_optimised",
 		"favoredReligion": "Humanism",
 	  
 		"startIntroPart1": "Welcome to Penguinesia, a world of icy diplomacy and strategic mastery, where you will lead a resilient and visionary empire. As the ruler of this great nation, you'll guide your people through frozen tundra and treacherous seas, fostering innovation and scientific progress.",
@@ -253,25 +255,37 @@
 "leaderName": "Alyosha",
 "adjective": ["Aleksandrian"],
 "startBias": ["Tundra"],
-"preferredVictoryType": "Scientific",
+"personality": "A1y0sh4",
+
+	"startIntroPart1": "Hail Lyosha, may your laurus dreams bring countless glory upon thee, great Caesar of Aleksandria! Under your enlightened empire lies the vast expanse of the harsh tundra, and behind her veiled marvels hides the real strength of the Pearl of the North. Starting as a humble coalition of the northern tribes, your people managed to endure the daring challenges posed by artic life. Through a fierce resilience and a blazing pride, they succeded to thrive under the sageful gaze of boreal lights. Now, the fame of Aleksandria stretches far and wide, as the renown of her deeds amazes both friends and foes alike.",
+	"startIntroPart2": "O Alyosha, princeps Aleksandri, the Motherland calls and invokes your ambition to fulfill your destiny and lead her people. Will you patronize the flourishing of arts and sciences or will you promote the thriving of arms and strife? Can you build a civilization that will stand the test of time?",
 	
-	"declaringWar": "The deeds sing, goddess, of the Motherland's son, Alyosha,\nthat war enterprises which brought countless glories upon the Comrades,\nand sent forth to Hades many valiant enemies.",
-	"attacked": "Finally someone ambitious enough to try to win me over.\nMay you succeed or die under my triumph.",
-	"defeated": "I know nothing about what I ignore, there's not much that I can do about it,\nand yet my latest realization burns my soul almost as much, in pride, I have burnt till now.",
+	"declaringWar": "The deeds sing, goddess, of the Motherland's son, Alyosha,\nwhose war enterprises brought countless glories upon the Comrades,\nand sent forth to Hades many valiant enemies.",
+	"attacked": "Finally someone ambitious enough to try to win me over. May you succeed or die under my triumph.",
+	"defeated": "I know nothing about what I ignore - I'm aware of it -\nyet still my latest realization burns my soul almost as much,\nin pride, I have burnt till now.",
 	"introduction": "Zdravstvuyte! I am A1y0sh4, great emperor of our glorious Motherland,\nbut you can call me Alyosha.",
-	"neutralHello": "Zdravstvuyte!",
-	"hateHello": "Are you still in this side of the Acheron?\nWhat do you want?",
+	"neutralHello": "Zdravstvuyte.",
+	"neutralLetsHearIt":["What shall we discuss now?","Interesting..."],
+	"neutralYes":["Our people are eager to accept.","So be it."],
+	"neutralNo":["I must respectfully decline.","I'm sorry, but currently we are not in the conditions to accept."],
+	"hateLetsHearIt":["Have you come here to negotiate your surrender?","Apparently you're either brave or mad enough to show up here...\nImpressive!"],
+	"hateNo":["I'm afraid not to be appreciating enough your subtle humor.","Please, spare me to hear such nonsense."],
+	"hateYes":["I see with great hope that we can find common ground even in such unfavourable circumstances."],
+	"afterPeace":"I must admit your military genius astonished me.\nConsider yourself honored by my most sincere respect.",
+	"hateHello": "Why are you still on this side of the Acheron?",
 	"tradeRequest": "Some believe that trade is the engine of the world.\nWould you like to move it in this direction?",
+	  
 	"favoredReligion": "Christianity",
 
-	"outerColor": [255, 250, 255],
-	"innerColor": [255, 205, 0],
+	"outerColor": [158, 0, 0],
+	"innerColor": [255, 200, 0],
 
 	"uniqueName": "Pearl of the North",
 	"uniques": ["[+1 Science] from every [Mine] <within [1] tiles of a [Tundra]>", "[+1 Culture] from every [Camp] <within [1] tiles of a [Tundra]>", "[-25]% construction time for [All] improvements <within [1] tiles of a [Tundra]>"],
-	"cities": ["Aleksandriagrad","Nikesburg","Rimgorod","Rodinnesburg","Yekateringrad","Peterinburg","Medvedorod","Ruthensk","Vostgorod",
-		"Lyoshasburg","Tovarivsk","Pobedigrad","Aleksisburg","Novaleksandria","Lyoshagrad","Veliksey","kholodnisburg","Veliksandria","Rekasburg",
-		"Veragrad","Morozburg","Varkutinsk"]
+	"cities": ["Aleksandriagrad","Nikesburg","Rimgorod","Rodinnesburg","Severgrad","Ugolkar","Lyoshasburg","Medvedorod","Ruthenskar","Lyodgorod",
+		"Tovarivsk","Pobedigrad","Zimnygrad","Knyazinsk","Aleksisburg","Velikoye","Novi Aleksandria","kholodnisburg","Lyoshagrad","Svyatograd","Rekasburg","Veliksandria",
+		"Veragrad","Morozburg","Medvedkar"],
+	"spyNames": ["Irina", "Vera", "Yelizaveta", "Yaroslav", "Nikita", "Yevgeny", "Denis", "Maksim", "Aleksandra", "Adelina"]
 },
 	//Ketonia
 	{
@@ -396,30 +410,30 @@
 	//VividVale 
     {
         "name": "VividVale",
-	"style": "VividValean",
-        "leaderName": "TCube",
-        "adjective": ["VividValian"],
-        "startBias": ["Coast"],
-        "preferredVictoryType": "Scientific",
-        "favoredReligion": "Christianity",
+	 "style": "VividValean",
+             "adjective": ["VividValean"],               
+             "leaderName": "BennieCUBED",
+             "startBias": ["Coast","Avoid [Tundra]"],
+             "preferredVictoryType": "Scientific",
+	 "personality": "BennieCUBED",
+	 "favoredReligion": "Christianity",
 
-        "startIntroPart1": "Do good.",
-        "startIntroPart2": "Can you protect cultures? Will you build a civilization that stands the test of time?",
-        "declaringWar": "I'm sorry, but you threaten the peace and balance of this world.",
-        "attacked": "Aha! Look at that little leader with their war declaration! Good job mate, show how really evil you are.",
-        "defeated": "VividVale has collapsed. We will respect you if you respect us.",
-        "introduction": "Henala! We are VividVale and we hope to make many allies",
-        "neutralHello": "Hello mate.",
-        "hateHello": "Syth do Erha Ubhun!",
-        "tradeRequest": "Want to make a deal?",
+             "declaringWar": "Don't worry, if we win this war, I'll make sure to conserve your culture...",
+             "attacked": "Your allies won't look at you the same anymore...",
+             "defeated": "Future generations may not sing the same songs; or even speak the same language... But as long as these bloodlines continue, VividVale is still alive.",
+             "introduction": "Welcome! We are VividVale. So... What is your culture like..?",               
 
-        "outerColor": [29, 92, 17],
-        "innerColor": [210, 136, 7],
+             "neutralHello": "Hello mate.",
+             "hateHello": "Want anything?",
 
-        "uniqueName": "Southern Stars",
-        "uniques": ["[+1 Culture, +1 Production] [in all coastal cities]"],
-        "cities": ["Vividstrone","Railak","Daybo River","Coleston","Narravale","Sveg",
-            "Ngurri", "Bensberg","Manstown","Once-Upon-Time","Lacoa","Good-City"]
+             "tradeRequest": "Hey, Want to trade?",
+
+             "outerColor": [9, 92, 17],
+             "innerColor": [210, 136, 7],
+             "uniqueName": "Bombora",
+             "uniques": ["[+1 Production, +1 Culture] in cities on [Coastal] tiles"],
+             "cities": ["Vividstrone","Railak","Daybo River","Coleston","Minvale","Manstown","Coalak","Bensberg","Galeborne","Cannervale","Koola","Waggaton","Sambay","Bunjitown",
+	 "Marakapi","Green Frog Gorge","Yukiri-yukiri Bay","Emu Handstrone","Once-upon-tyme","Good-City"]
 },
         //Rakhvia
 	{
@@ -511,7 +525,7 @@
     	"tradeRequest": "May I interest you in these fine pieces?",
 		
 		"uniqueName": "Absolute Artists",
-		"uniques": ["Free[Great Artist] appears <upon discovering [Drama and Poetry]>", "[Great Artist] is earned [50]% faster"],
+		"uniques": ["Free [Great Artist] appears <upon discovering [Drama and Poetry]>", "[Great Artist] is earned [50]% faster"],
 
 		"cities": ["Absolute Falls","Pixelhaven","Glorious Drive","Dunevale","Trail's End","Linntown","Wormwood","Willamette","Hillview","Riverhaven","Forest Crest","Pixelview","Absolute Heights","Wormgate","Riverdale","Duneland","Wormsign","Clayearth","Absolute Valley","Rainburg","Pixel Springs"]
   },
@@ -692,4 +706,58 @@
 			"[+15]% Golden Age length","[+10]% Strength <when fighting in [Friendly Land] tiles>"],
         "cities": ["Arkistia","Paeolitic","Grandpas House","Jurassic Park","Ark Base","Megalodon"]
     },
+	//Fast Doubloon
+	{
+		"name": "The Fast Economists",
+		"leaderName": "Fast Doubloon",
+		"personality": "Fast Doubloon",
+		"startBias": ["Coast"],
+		"outerColor": [52, 30, 4],
+		"innerColor": [229, 181, 25],
+
+		"uniqueName": "Growth over Force",
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%",
+		"[+1 Culture] from every [Mint] <after discovering [Economics]>",
+		"[+1 Culture] from every [Market] <after discovering [Economics]>",
+		"[+1 Culture] from every [Bank] <after discovering [Economics]>",
+		"[+1 Culture] from every [Stock Exchange] <after discovering [Economics]>",
+
+		"[+50]% [Gold] [in all cities] <during the [Ancient era]>",
+		"[+25]% [Gold] [in all cities] <during the [Classical era]>",
+		"[+20]% [Gold] [in all cities] <during the [Medieval era]>",
+		"[+15]% [Gold] [in all cities] <during the [Renaissance era]>",
+		"[+10]% [Gold] [in all cities] <during the [Industrial era]>",
+
+		"[+10]% [Gold] from Trade Routes <after adopting [Commerce]>",
+		
+		"Gifts of Gold to City-States generate [+20]% more Influence"],
+		"cities": ["Doubloon City","Coin city","Free Zone","Baboon City"]
+	},
+	{ //Tyrumas
+		"name": "Sylvanor",
+		"leaderName": "Elara Evergreen",
+		"outerColor": [255, 255, 102],
+		"innerColor": [34, 139, 34],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Nature's Harmony",
+		
+		"startIntroPart1": "Greetings, esteemed ruler. As we step into the verdant embrace of Sylvanor, know that our roots run deep, intertwined with the ancient trees that whisper the secrets of our land.",
+		"startIntroPart2": "Our path is guided by the wisdom of the forest, and our destiny lies in unlocking the mysteries of nature itself.",
+		
+		"introduction": "Welcome to Sylvanor, where the leaves dance in harmony with the wind and the rivers sing tales of old.",
+		"declaringWar": "The tranquility of the woods shall not be disturbed, but should you seek conflict, prepare to face the wrath of nature herself.",
+		"attacked": "The forests shall shelter us, and the spirits of the wild shall rise to defend our lands! For Sylvanor!",
+		"afterPeace": "May the peace of the forest return, and may our hearts find solace in the tranquil embrace of Sylvanor.",
+		"defeated": "The boughs may bend, but they shall never break. Sylvanor will endure, even in the face of defeat.",
+		
+		"neutralHello": "Hail, traveler. What whispers does the wind bring from distant lands?",
+		"hateHello": "Begone, disruptor of nature's balance. Your presence here soils the sanctity of our realm.",
+		"tradeRequest": "Shall we exchange the bounty of our forests for the treasures of your realm?",
+
+		"uniqueName": "The Tune of the Leafage",
+		"uniques": ["[+1 Happiness] [in all cities] <with [1] to [2] neighboring [Forest] tiles>","[+2 Happiness] [in all cities] <with [3] to [6] neighboring [Forest] tiles>",
+			"[+1 Production] from [Forest] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>"],
+		"cities": ["Everwood","Verdant Grove","Whispering Pines","Mosswood","Fernhaven","Willowshade","Oakheart","Sunleaf","Briarthorn","Wildroot"]
+	}
 ]

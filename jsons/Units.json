@@ -57,7 +57,8 @@
 		"uniqueTo": "Wonderland",
 		"replaces": "Great General",
 		"uniques": ["[+20]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing", "Can instantly construct a [Citadel] improvement <by consuming this unit>", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"All adjacent units heal [+15] HP when healing", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat","Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 3,
 	 },
 
@@ -133,8 +134,7 @@
 		"requiredTech": "Rifling",
 		"upgradesTo": "Great War Infantry",
 		"obsoleteTech": "Replaceable Parts",
-		"uniques":["Unit will heal every turn, even if it performs an action <in [Friendly Land] tiles>"],
-		"promotions": ["[Comrade] ability"],
+		"promotions": ["[Comrade] ability", "March"],
 		"attackSound": "shot"
 	},
 	//Rize
@@ -204,7 +204,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Academy] improvement <by consuming this unit>",
-            "Great Person - [War]",
+            "Great Person - [War]","Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -412,5 +412,33 @@
 		"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+	//Fast Doubloon
+	{
+		"name": "Trade Boats",
+		"uniqueTo": "The Fast Economists",
+		"replaces": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 375,
+		"hurryCostModifier": 25,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence"],
+		"attackSound": "shipguns"
+	},
+	//Tyrumas
+	{
+		"name": "Ent-tenette",
+		"uniqueTo": "Sylvanor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 35,
+		"uniques": [
+			"Turn this tile into a [Forest] tile <by consuming this unit>",
+			"Cost increases by [10] per owned city","Cost increases by [15] when built"]
 	},
 ]
